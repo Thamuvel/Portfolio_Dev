@@ -1,0 +1,919 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <title>DevThamu - Personal Portfolio </title>
+    <meta content="width=device-width, initial-scale=1.0" name="viewport" />
+    <meta content="" name="keywords" />
+    <meta content="" name="description" />
+
+    <link rel="icon" type="image/png" sizes="32x32" href="/img/favicon.ico">
+    <!-- Google Web Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@100..900&family=Edu+TAS+Beginner:wght@400..700&family=Jost:ital,wght@0,100..900;1,100..900&display=swap"
+      rel="stylesheet"
+    />
+
+    <!-- Icon Font Stylesheet -->
+    <link
+      rel="stylesheet"
+      href="https://use.fontawesome.com/releases/v5.15.4/css/all.css"
+    />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.4.1/font/bootstrap-icons.css"
+      rel="stylesheet"
+    />
+
+    <!-- Libraries Stylesheet -->
+    <link rel="stylesheet" href="lib/animate/animate.min.css" />
+    <link href="lib/lightbox/css/lightbox.min.css" rel="stylesheet" />
+    <link href="lib/owlcarousel/assets/owl.carousel.min.css" rel="stylesheet" />
+
+    <!-- Customized Bootstrap Stylesheet -->
+    <link href="css/bootstrap.min.css" rel="stylesheet" />
+
+    <!-- Template Stylesheet -->
+    <link href="css/style.css" rel="stylesheet" />
+     <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/@emailjs/browser@4/dist/email.min.js"></script>
+  </head>
+
+  <body>
+    <!-- Spinner Start -->
+    <div
+      id="spinner"
+      class="show bg-white position-fixed translate-middle w-100 vh-100 top-50 start-50 d-flex align-items-center justify-content-center"
+    >
+      <div
+        class="spinner-border text-primary"
+        style="width: 3rem; height: 3rem"
+        role="status"
+      >
+        <span class="sr-only">Loading...</span>
+      </div>
+    </div>
+    <!-- Spinner End -->
+
+    <!-- Navbar Start -->
+    <div class="container-fluid nav-section border-0">
+      <nav class="navbar navbar-light">
+        <div class="navbar-nav flex-column">
+          <a href="#Home" class="nav-item nav-link active"
+            ><span class="fa fa-home"></span> Home</a
+          >
+          <a href="#About" class="nav-item nav-link"
+            ><span class="far fa-address-card"></span> About</a
+          >
+           <a href="#Skills" class="nav-item nav-link"
+            ><span class="fa fa-blog"></span>Skill</a
+          >
+          <a href="#Service" class="nav-item nav-link"
+            ><span class="fab fa-servicestack"></span> Service</a
+          >
+         
+          <a href="#Contact" class="nav-item nav-link"
+            ><span class="fas fa-address-book"></span> Contact</a
+          >
+        </div>
+      </nav>
+    </div>
+    <!-- Navbar End -->
+
+    <!-- Header Start -->
+    <div class="container-fluid" id="Home">
+      <div class="container">
+        <div class="row g-0">
+          <div class="col-12 col-lg-3">
+            <div class="header-content bg-dark h-100 pt-6 pe-6 pb-6">
+              <a
+                href="index.html"
+                class="navbar-brand d-inline-flex pb-5 wow fadeInUp"
+                data-wow-delay="0.1s"
+              >
+               
+              </a>
+              <div
+                class="text-start d-flex flex-column justify-content-center wow fadeInUp"
+                data-wow-delay="0.3s"
+              >
+                <p class="text-white sub-title">👋🏻 Hello I'm THAMU</p>
+                <h1 class="display-6 text-white mb-0">
+                  Data Engineer, <br> Backend Devloper
+                </h1>
+              </div>
+            </div>
+          </div>
+          <div class="col-12 col-lg-9">
+            <div class="header-img d-flex h-100 pt-6 ps-6 pb-6">
+              <div class="row g-5">
+                <div class="col-xl-6 wow fadeInUp" data-wow-delay="0.1s">
+                  <div
+                    class="bg-light p-4"
+                    style="border-radius: 68% 32% 100% 0% / 0% 75% 25% 100%"
+                  >
+                    <img
+                      src="img/Myself.jpg"
+                      class="img-fluid w-100"
+                      style="border-radius: 68% 32% 100% 0% / 0% 75% 25% 100%"
+                      alt="Image"
+                    />
+                  </div>
+                </div>
+                <div class="col-xl-6 wow fadeInUp" data-wow-delay="0.3s">
+                  <h3 class="display-6 mb-4">
+                    Junior Data Engineer, <br>Backend Devloper
+                  </h3>
+                  <p class="mb-4">
+                    Data developers design, develop, and maintain large-scale data processing systems. They are primarily responsible for creating scalable and efficient data pipelines, implementing data models, and integrating diverse data sources to enable businesses to extract valuable insights and make data-driven decisions.
+                  </p>
+                  <div class="d-flex align-items-center mb-2">
+                    <i class="fas fa-map-marker-alt text-primary me-3"></i>
+                    <p class="text-dark mb-0">Theni, Tamilnadu, India</p>
+                  </div>
+                  <div class="d-flex align-items-center mb-2">
+                    <i class="fas fa-envelope text-primary me-3"></i>
+                    <p class="text-dark mb-0">ethamuvelitbnec@gmail.com</p>
+                  </div>
+                  <div class="d-flex align-items-center mb-2">
+                    <i class="fa fa-phone-alt text-primary me-3"></i>
+                    <p class="text-dark mb-0">+91 9384207038</p>
+                  </div>
+                  <p>   </p>
+                  <div class="d-flex">
+                    <!-- <a class="btn btn-primary btn-sm-square me-3" href="#"
+                      ><i class="fab fa-facebook-f text-white"></i
+                    ></a>
+                    <a class="btn btn-primary btn-sm-square me-3" href="#"
+                      ><i class="fab fa-twitter text-white"></i
+                    ></a> -->
+                    <a class="btn btn-primary btn-sm-square me-3" href="https://www.instagram.com/thamu.vel?igsh=ZXI0Mzdnb3V6NnRu" target="_blank"
+                      ><i class="fab fa-instagram text-white"></i
+                    ></a>
+                    <a class="btn btn-primary btn-sm-square me-0" href="https://www.linkedin.com/in/devthamuvel" target="_blank"
+                      ><i class="fab fa-linkedin-in text-white"></i
+                    ></a>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- Header End -->
+
+    <!-- About Start -->
+    <div class="container-fluid" id="About">
+      <div class="container">
+        <div class="row g-0">
+          <div class="col-12 col-lg-3">
+            <div class="about-header bg-dark h-100 pt-6 pe-6 pb-6">
+              <div
+                class="text-start d-flex flex-column justify-content-center wow fadeInUp"
+                data-wow-delay="0.1s"
+              >
+                <p class="text-white sub-title">About Me</p>
+                <h1 class="display-6 text-white mb-0">
+                 Data Engineer
+                </h1>
+              </div>
+            </div>
+          </div>
+          <div class="col-12 col-lg-9">
+            <div class="about-content h-100 pt-6 ps-6 pb-6">
+              <div class="row g-5">
+                <div class="col-xl-5">
+                  <div
+                    class="about-img bg-light p-4 wow fadeInUp"
+                    data-wow-delay="0.1s"
+                  >
+                    <img
+                      src="img/about.jpg"
+                      class="img-fluid w-100"
+                      alt="Image"
+                    />
+                    <div class="sosial-icon">
+                      <!-- <a class="btn btn-primary btn-sm-square mb-3" href="#"
+                        ><i class="fab fa-facebook-f text-white"></i
+                      ></a>
+                      <a class="btn btn-primary btn-sm-square mb-3" href="#"
+                        ><i class="fab fa-twitter text-white"></i
+                      ></a> -->
+                      <a class="btn btn-primary btn-sm-square mb-3" href="#"
+                        ><i class="fab fa-instagram text-white"></i
+                      ></a>
+                      <a class="btn btn-primary btn-sm-square mb-0" href="https://www.linkedin.com/in/devthamuvel" target="_blank"
+                        ><i class="fab fa-linkedin-in text-white"></i
+                      ></a>
+                    </div>
+                  </div>
+                </div>
+                <div class="col-xl-7 wow fadeInUp" data-wow-delay="0.3s">
+                  <h4 class="mb-4">Hello, I'm THAMU, Junior Data Engineer | Backend Devloper</h4>
+                  <p class="mb-4">
+                    <b>» </b>Proven track record in project management, process improvement and complex problem-solving, with a strong focus on quality, safety and innovation. Adept at collaborating with cross-functional teams and utilizing excellent communication skills to optimize project outcomes. <br><br>
+                          <b>» </b>Self-motivated, organized, and efficient data engineer and analyst with relevant technology experience and data processing skills. Data-driven and analytical innovator with excellent problem-solving skills, business acumen, and passion for contributing to large-scale data ingestion and research initiatives.
+                  
+                  <div></div>
+                  
+                  <a href="./documents/ThamuvelEResume.pdf" class="btn btn-primary py-2 px-4">
+                    <i class="fas fa-download me-2"></i>Download My CV</a
+                  >
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- About End -->
+
+    <!-- Education Start -->
+    <div class="container-fluid" id="Education">
+      <div class="container">
+        <div class="row g-0">
+          <div class="col-lg-3">
+            <div class="education-header bg-dark h-100 pt-6 pe-6 pb-6">
+              <div
+                class="text-start d-flex flex-column justify-content-center wow fadeInUp"
+                data-wow-delay="0.1s"
+              >
+                <p class="text-white sub-title">Education</p>
+                <h1 class="display-6 text-white mb-0">
+                  My education qualification
+                </h1>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-9">
+            <div class="education-content h-100 pt-6 ps-6 pb-6">
+              <div class="row g-4">
+                <div class="col-12">
+                  <div
+                    class="education-item rounded p-4 h-100 wow fadeInUp"
+                    data-wow-delay="0.1s"
+                  >
+                    <div class="d-flex align-items-center mb-3">
+                      <p class="fs-5 mb-0 me-4">Cultus Education</p>
+                      <div>
+                        <span class="fa fa-calendar me-1"></span> 2025
+                      </div>
+                    </div>
+                    <h4 class="mb-3">AWS Cloud Services</h4>
+                    <p class="mb-0">
+                     In progress a course on Amazon Web Services (AWS) covering core cloud concepts, EC2, S3, RDS, and IAM. Gained hands-on experience in deploying applications, managing cloud storage, and setting up basic networking and security. Built a strong foundation in cloud computing, scalability, and cost-optimization principles.
+                    </p>
+                  </div>
+                </div>
+                <div class="col-12">
+                  <div
+                    class="education-item rounded p-4 h-100 wow fadeInUp"
+                    data-wow-delay="0.3s"
+                  >
+                    <div class="d-flex align-items-center mb-3">
+                      <p class="fs-5 mb-0 me-4">Samcore Solution</p>
+                      <div>
+                        <span class="fa fa-calendar me-1"></span> 2024
+                      </div>
+                    </div>
+                    <h4 class="mb-3">Java Development</h4>
+                    <p class="mb-0">
+                      Strong understanding of Java basics: OOP concepts, classes, inheritance, and exception handling.
+                                        Used Java for writing clean, modular, and efficient code.
+                                        Familiar with data structures and algorithms in Java.
+                                        Basic experience with file handling, multithreading, and JDBC.
+                    </p>
+                  </div>
+                </div>
+                <div class="col-12">
+                  <div
+                    class="education-item rounded p-4 h-100 wow fadeInUp"
+                    data-wow-delay="0.5s"
+                  >
+                    <div class="d-flex align-items-center mb-3">
+                      <p class="fs-5 mb-0 me-4">Samcore Solution</p>
+                      <div>
+                        <span class="fa fa-calendar me-1"></span> 2024
+                      </div>
+                    </div>
+                    <h4 class="mb-3">Python Development</h4>
+                    <p class="mb-0">
+                      Proficient in Python programming with a focus on data manipulation, automation, and processing large datasets.
+                                            Worked with basic concepts like functions, loops, OOP, and file handling.
+                                            Used libraries like Pandas and NumPy for data cleaning and analysis.
+                                            Familiar with writing Python scripts for handling large datasets.
+                    </p>
+                  </div>
+                </div>
+                <div class="col-12">
+                  <div
+                    class="education-item rounded p-4 h-100 wow fadeInUp"
+                    data-wow-delay="0.5s"
+                  >
+                    <div class="d-flex align-items-center mb-3">
+                      <p class="fs-5 mb-0 me-4">Bharath Niketan Engineering College, Anna University</p>
+                      <div>
+                        <span class="fa fa-calendar me-1"></span> 2019 - 2025
+                      </div>
+                    </div>
+                    <h4 class="mb-3">B.Tech in Information Technology</h4>
+                    <p class="mb-0">
+                     Studied core subjects like data structures, databases, and distributed systems.Gained knowledge in data handling, storage, and basic big data concepts.Completed projects using Python, SQL, and data analysis tools.
+                                        Built a strong base in programming (Java, Python) useful for data engineering roles.  
+                    </p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- Education End -->
+
+    <!-- Experience Start -->
+    <div class="container-fluid" id="Experience">
+      <div class="container">
+        <div class="row g-0">
+          <div class="col-lg-3">
+            <div class="experience-header bg-dark h-100 pt-6 pe-6 pb-6">
+              <div
+                class="text-start d-flex flex-column justify-content-center wow fadeInUp"
+                data-wow-delay="0.1s"
+              >
+                <p class="text-white sub-title">Experience</p>
+                <h1 class="display-6 text-white mb-0">
+                  My real work experience
+                </h1>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-9">
+            <div class="experience-content h-100 pt-6 ps-6 pb-6">
+              <div class="row g-4">
+                <div class="col-12">
+                  <div
+                    class="experience-item rounded p-4 h-100 wow fadeInUp"
+                    data-wow-delay="0.1s"
+                  >
+                    <div class="d-flex align-items-center mb-3">
+                      <p class="fs-5 mb-0 me-4">Samcore Solution, Trichy, Tamilnadu</p>
+                      <div>
+                        <span class="fa fa-calendar me-1"></span>  Oct - Nov 2024
+                      </div>
+                    </div>
+                    <h4 class="mb-3">Junior Java Devloper</h4>
+                    <p class="mb-0">
+                     Strong understanding of Java basics which OOP concepts, classes, inheritance, and exception handling.
+                                        Used Java for writing clean, modular, and efficient code.
+                                        Familiar with data structures and algorithms in Java.
+                                        Basic experience with file handling, multithreading, and JDBC.
+                                        Able to use Java for backend logic and data-related tasks.
+                    </p>
+                  </div>
+                </div>
+                <div class="col-12">
+                  <div
+                    class="experience-item rounded p-4 h-100 wow fadeInUp"
+                    data-wow-delay="0.3s"
+                  >
+                    <div class="d-flex align-items-center mb-3">
+                      <p class="fs-5 mb-0 me-4">Samcore Solution, Trichy, Tamilnadu</p>
+                      <div>
+                        <span class="fa fa-calendar me-1"></span> July - Aug 2024
+                      </div>
+                    </div>
+                    <h4 class="mb-3">Junior Python Devloper</h4>
+                    <p class="mb-0">
+                      Completed a Python internship focused on data handling and automation tasks.
+                                        Worked on real-time projects involving data cleaning, analysis, and basic reporting.
+                                        Used Python libraries like Pandas, NumPy, and Matplotlib for processing and visualizing data.
+                                        Gained hands-on experience in writing Python scripts for file operations, data conversion, and simple ETL processes.
+                                        Improved problem-solving and debugging skills through daily coding tasks and reviews.
+                    </p>
+                  </div>
+                </div>
+                
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- Exparience End -->
+
+    <!-- Skills Start -->
+    <div class="container-fluid" id="Skills">
+            <div class="container">
+                <div class="row g-0">
+                    <div class="col-lg-3">
+                        <div class="skills-header h-100 bg-dark pt-6 pe-6 pb-6">
+                            <div class="text-start d-flex flex-column justify-content-center wow fadeInUp" data-wow-delay="0.1s">
+                                <p class="text-white sub-title">Skills</p>
+                                <h1 class="display-6 text-white mb-0">My expertise skills</h1>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-9">
+                        <div class="skills-content h-100 pt-6 ps-6 pb-6">
+                            <div class="row g-4">
+                                <div class="col-6 col-md-4 col-lg-4 col-xl-3">
+                                    <div class="skills-item text-center rounded p-4 h-100 wow fadeInUp" data-wow-delay="0.1s">
+                                        <div class="text-primary text-center mb-3"><span class="fab fa-3x"> <img src="img/icons/icons8-python-50.png" alt=""></span></div>
+                                       
+                                        <br>
+                                        <p class="mb-0">Python</p>
+                                    </div>
+                                </div>
+                                <div class="col-6 col-md-4 col-lg-4 col-xl-3">
+                                    <div class="skills-item text-center rounded p-4 h-100 wow fadeInUp" data-wow-delay="0.3s">
+                                        <div class="text-primary text-center mb-3"><span class="fab fa-3x"><img src="img/icons/icons8-java-50.png" alt=""></span></div>
+                                       
+                                        <br>
+                                        <p class="mb-0">Java</p>
+                                    </div>
+                                </div>
+                                
+                                <div class="col-6 col-md-4 col-lg-4 col-xl-3">
+                                    <div class="skills-item text-center rounded p-4 h-100 wow fadeInUp" data-wow-delay="0.1s">
+                                        <div class="text-primary text-center mb-3"><span><img src="img/icons/icons8-database-48.png" alt=""></span></div>
+                                       
+                                        <br>
+                                        <p class="mb-0">Database</p>
+                                    </div>
+                                </div>
+                                 <div class="col-6 col-md-4 col-lg-4 col-xl-3">
+                                    <div class="skills-item text-center rounded p-4 h-100 wow fadeInUp" data-wow-delay="0.3s">
+                                        <div class="text-primary text-center mb-3"><span><img src="img/icons/icons8-scala-50.png" alt=""></span></div>
+                                       
+                                        <br>
+                                        <p class="mb-0">Scala</p>
+                                    </div>
+                                </div>
+                                <div class="col-6 col-md-4 col-lg-4 col-xl-3">
+                                    <div class="skills-item text-center rounded p-4 h-100 wow fadeInUp" data-wow-delay="0.3s">
+                                        <div class="text-primary text-center mb-3"><span class="fab  fa-3x"><img src="img/icons/icons8-linux-50.png" alt=""></span></div>
+                                       
+                                        <br>
+                                        <p class="mb-0">Linux</p>
+                                    </div>
+                                </div>
+                               
+                                <div class="col-6 col-md-4 col-lg-4 col-xl-3">
+                                    <div class="skills-item text-center rounded p-4 h-100 wow fadeInUp" data-wow-delay="0.3s">
+                                        <div class="text-primary text-center mb-3"><span><img src="img/icons/icons8-apache-spark-50.png" alt=""></span></div>
+                                        
+                                        <br>
+                                        <p class="mb-0">Apache Spark</p>
+                                    </div>
+                                </div>
+                                <div class="col-6 col-md-4 col-lg-4 col-xl-3">
+                                    <div class="skills-item text-center rounded p-4 h-100 wow fadeInUp" data-wow-delay="0.3s">
+                                        <div class="text-primary text-center mb-3" ><span ><img src="img/icons/Apache Airflow.png" alt="" height="25%" width="25%" "></span></div>
+                                        
+                                        <br>
+                                        <p class="mb-0">Apache Airflow</p>
+                                    </div>
+                                </div>
+                                <div class="col-6 col-md-4 col-lg-4 col-xl-3">
+                                    <div class="skills-item text-center rounded p-4 h-100 wow fadeInUp" data-wow-delay="0.3s">
+                                        <div class="text-primary text-center mb-3"><span><img src="img/icons/icons8-aws-50.png" alt=""></span></div>
+                                        
+                                        <br>
+                                        <p class="mb-0">AWS Services</p>
+                                    </div>
+                                </div>
+                                <div class="col-6 col-md-4 col-lg-4 col-xl-3">
+                                    <div class="skills-item text-center rounded p-4 h-100 wow fadeInUp" data-wow-delay="0.3s">
+                                        <div class="text-primary text-center mb-3"><span><img src="img/icons/icons8-apache-kafka-64.png" alt=""></span></div>
+                                        
+                                        <br>
+                                        <p class="mb-0">Kafka</p>
+                                    </div>
+                                </div>
+                                <div class="col-6 col-md-4 col-lg-4 col-xl-3">
+                                    <div class="skills-item text-center rounded p-4 h-100 wow fadeInUp" data-wow-delay="0.3s">
+                                        <div class="text-primary text-center mb-3"><span><img src="img/icons/icons8-snowflake-50.png" alt=""></span></div>
+                                       
+                                        <br>
+                                        <p class="mb-0">Snowflake</p>
+                                    </div>
+                                </div>
+                                <div class="col-6 col-md-4 col-lg-4 col-xl-3">
+                                    <div class="skills-item text-center rounded p-4 h-100 wow fadeInUp" data-wow-delay="0.3s">
+                                        <div class="text-primary text-center mb-3"><span><img src="img/icons/icons8-azure-48.png" alt=""></span></div>
+                                        
+                                        <br>
+                                        <p class="mb-0">Azure</p>
+                                    </div>
+                                </div>
+                                <div class="col-6 col-md-4 col-lg-4 col-xl-3">
+                                    <div class="skills-item text-center rounded p-4 h-100 wow fadeInUp" data-wow-delay="0.3s">
+                                        <div class="text-primary text-center mb-4"><span><img src="img/icons/icons8-google-cloud-48.png" alt=""></span></div>
+                                        
+                                        <br>
+                                        <p class="mb-0">GCP</p>
+                                    </div>
+                                </div>
+                               
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    <!-- Skills End -->
+
+    <!-- Service Start -->
+     <div class="container-fluid" id="Service">
+            <div class="container">
+                <div class="row g-0">
+                    <div class="col-lg-3">
+                        <div class="service-header h-100 bg-dark pt-6 pe-6 pb-6">
+                            <div class="text-start d-flex flex-column justify-content-center wow fadeInUp" data-wow-delay="0.1s">
+                                <p class="text-white sub-title">My Services</p>
+                                <h1 class="display-6 text-white mb-0">What I do for you</h1>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-9">
+                        <div class="service-content h-100 pt-6 ps-6 pb-6">
+                            <div class="row g-4">
+                                <div class="col-12">
+                                    <div class="service-item p-4 wow fadeInUp" data-wow-delay="0.1s">
+                                        <div class="row g-4 align-items-center">
+                                            <div class="col-xl-2">
+                                                <p class="fas fa-bezier-curve fa-3x"></p>
+                                            </div>
+                                            <div class="col-xl-3">
+                                                <p class="h4 mb-0">End-to-End Data Pipeline Development</p>
+                                            </div>
+                                            <div class="col-xl-7">
+                                                <p class="mb-0">I design and implement scalable ETL/ELT pipelines using tools like Apache Airflow, Spark, and Python, enabling seamless ingestion, transformation, and loading of structured and unstructured data.
+                                                </p>
+                                            </div>
+                                            
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-12">
+                                    <div class="service-item p-4 wow fadeInUp" data-wow-delay="0.3s">
+                                        <div class="row g-4 align-items-center">
+                                            <div class="col-xl-2">
+                                                <!-- <i class="fas fa-laptop-code fa-3x"></i> -->
+                                                 <img src="img/icons8-cloud-computing-50 (1).png" alt="">
+                                            </div>
+                                            <div class="col-xl-3">
+                                                <p class="h4 mb-0">Cloud Data Engineering Solutions</p>
+                                            </div>
+                                            <div class="col-xl-7">
+                                                <p class="mb-0">I architect and manage data workflows on AWS (S3, Redshift, Glue, Lambda) and Azure Data Factory, ensuring cost-efficient, secure, and reliable cloud-based data infrastructure.
+                                                </p>
+                                            </div>
+                                            
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-12">
+                                    <div class="service-item p-4 wow fadeInUp" data-wow-delay="0.5s">
+                                        <div class="row g-4 align-items-center">
+                                            <div class="col-xl-2">
+                                               <img src="img/icons8-big-data-50.png" alt="">
+                                            </div>
+                                            <div class="col-xl-3">
+                                                <a href="#" class="h4 mb-0">Big Data Processing</a>
+                                            </div>
+                                            <div class="col-xl-7">
+                                                <p class="mb-0">I work with Apache Spark and Hadoop ecosystems to process and analyze large datasets, improving data availability and query performance for business intelligence.
+                                                </p>
+                                            </div>
+                                            
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-12">
+                                    <div class="service-item p-4 wow fadeInUp" data-wow-delay="0.5s">
+                                        <div class="row g-4 align-items-center">
+                                            <div class="col-xl-2">
+                                                <img src="img/icons8-data-storage-50.png" alt="">
+                                            </div>
+                                            <div class="col-xl-3">
+                                                <a href="#" class="h4 mb-0">Database Design & Optimization</a>
+                                            </div>
+                                            <div class="col-xl-7">
+                                                <p class="mb-0">I build and optimize relational (PostgreSQL, MySQL) and NoSQL (MongoDB) databases, applying indexing, partitioning, and query tuning techniques to ensure efficiency at scale.
+                                                </p>
+                                            </div>
+                                            
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    <!-- Service End -->
+
+    <!-- Portfolio Start -->
+    <div class="container-fluid">
+      <div class="container">
+        <div class="row g-0">
+          <div class="col-lg-3">
+            <div class="portfolio-header h-100 bg-dark pt-6 pe-6 pb-6">
+              <div
+                class="text-start d-flex flex-column justify-content-center wow fadeInUp"
+                data-wow-delay="0.1s"
+              >
+                <p class="text-white sub-title">Portfolio</p>
+                <h1 class="display-6 text-white mb-0">My Recent Works</h1>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-9">
+            <div class="portfolio-content h-100 pt-6 ps-6 pb-6">
+              <div
+                class="portfolio-item py-5 border-bottom wow fadeInUp"
+                data-wow-delay="0.1s"
+              >
+                <div class="row g-4 align-items-center">
+                  <div class="col-xl-6 ">
+                    <h4 class="text-body">Real-Time Data Streaming with Apache Kafka</h4>
+                   
+                  </div>
+                  <div class="col-9 col-xl-6">
+                    <div class="">
+                      
+                         <p> Designed and implemented a real-time data pipeline using Apache Kafka. Ingested streaming data from external APIs (e.g., stock market/tweets). Processed and stored transformed data in PostgreSQL for analytics. Improved data availability for real-time monitoring and reporting.</p>
+                      
+                    </div>
+                  </div>
+                  
+                </div>
+              </div>
+              <div
+                class="portfolio-item py-5 border-bottom wow fadeInUp"
+                data-wow-delay="0.3s"
+              >
+                <div class="row g-4 align-items-center">
+                  <div class="col-xl-6">
+                    <h4 class="text-body">Data Warehouse on AWS Redshift</h4>
+                    
+                  </div>
+                  <div class="col-9 col-xl-6 ">
+                    <div class="">
+                      
+                        <p>Improved data retrieval speed by {25%} by designing a star schema for structured business data. Built ETL workflows to move raw data from AWS S3 into Redshift. Optimized queries using distribution keys and sort keys. Enabled faster analytical reporting and BI integration.</p>
+                     
+                    </div>
+                  </div>
+                  
+                </div>
+              </div>
+              <div
+                class="portfolio-item py-5 border-bottom wow fadeInUp"
+                data-wow-delay="0.3s"
+              >
+                <div class="row g-4 align-items-center">
+                  <div class="col-xl-6">
+                    <h4 class="text-body">Big Data Processing with Spark</h4>
+                    
+                  </div>
+                  <div class="col-9 col-xl-6 ">
+                    <div class="">
+                      
+                        <p>Increased data processing efficiency by {30%} using PySpark for analyzing {2 million} e-commerce transactions. Performed data cleaning, transformations, and aggregations at scale. Stored results in HDFS/PostgreSQL for further reporting.</p>
+                     
+                    </div>
+                  </div>
+                  
+                </div>
+              </div>
+              <div
+                class="portfolio-item py-5 border-bottom wow fadeInUp"
+                data-wow-delay="0.3s"
+              >
+                <div class="row g-4 align-items-center">
+                  <div class="col-xl-6">
+                    <h4 class="text-body">Airflow ETL Automation</h4>
+                    
+                  </div>
+                  <div class="col-9 col-xl-6 ">
+                    <div class="">
+                      
+                        <p>Optimized data processing efficiency by {30%} using Apache Airflow to develop a scheduled ETL pipeline. Automated daily ingestion of data from a REST API into PostgreSQL. Applied Python scripts for data cleaning and transformation. Reduced manual effort by 100% through workflow automation.</p>
+                     
+                    </div>
+                  </div>
+                  
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- Portfolio End -->
+
+    
+
+    <!-- Contact Start -->
+    <div class="container-fluid" id="Contact">
+      <div class="container">
+        <div class="row g-0">
+          <div class="col-lg-3">
+            <div class="contact-header h-100 bg-dark pt-6 pe-6 pb-6">
+              <div
+                class="text-start d-flex flex-column justify-content-center wow fadeInUp"
+                data-wow-delay="0.1s"
+              >
+                <p class="text-white sub-title">Contact Me</p>
+                <h1 class="display-6 text-white mb-0">
+                  Let’s Start A New Project
+                </h1>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-9">
+            <div class="contact-content h-100 pt-6 ps-6 pb-6">
+              <div class="bg-light p-4">
+                <div class="row g-5">
+                  <div class="col-xl-5 wow fadeInUp" data-wow-delay="0.1s">
+                    
+                    <div class="d-flex mb-4">
+                      <div class="btn-xl-square bg-primary text-white me-3">
+                        <i class="fas fa-map-marker-alt"></i>
+                      </div>
+                      <div>
+                        <h4>Address</h4>
+                        <p class="mb-0">Theni, Tamilnadu, India</p>
+                      </div>
+                    </div>
+                    <div class="d-flex mb-4">
+                      <div class="btn-xl-square bg-primary text-white me-3">
+                        <i class="fas fa-envelope"></i>
+                      </div>
+                      <div>
+                        <h4>Mail Us</h4>
+                        <p class="mb-0">ethamuvelitbnec@gmail.com</p>
+                      </div>
+                    </div>
+                    <div class="d-flex">
+                      <div class="btn-xl-square bg-primary text-white me-3">
+                        <i class="fa fa-phone-alt"></i>
+                      </div>
+                      <div>
+                        <h4>Telephone</h4>
+                        <p class="mb-0"> +91 9384207038</p>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="col-xl-7 wow fadeInUp" data-wow-delay="0.3s">
+                    <div>
+                      <form id="contactForm" class="vg-contact-form">
+                        <div class="row g-3">
+                          <div class="col-lg-12 col-xl-6">
+                            <div class="form-floating">
+                              <input
+                                  class="form-control border-0"
+                                  type="text"
+                                  name="Name"
+                                  id="name"
+                                  placeholder="Your Name"
+                                  required
+                                />
+                              <label for="name">Your Name</label>
+                            </div>
+                          </div>
+                          <div class="col-lg-12 col-xl-6">
+                            <div class="form-floating">
+                              <input
+                                type="email"
+                                class="form-control border-0"
+                                id="email"
+                                name="email"
+                                placeholder="Your Email"
+                              />
+                              <label for="email">Your Email</label>
+                            </div>
+                          </div>
+                          <div class="col-lg-12 col-xl-6">
+                            <div class="form-floating">
+                              <input
+                                type="phone"
+                                class="form-control border-0"
+                                id="phone"
+                                name="phone"
+                                placeholder="Phone"
+                              />
+                              <label for="phone">Your Phone</label>
+                            </div>
+                          </div>
+
+                          <div class="col-12">
+                            <div class="form-floating">
+                              <input
+                                type="text"
+                                class="form-control border-0"
+                                id="subject"
+                                name="subject"
+                                placeholder="Subject"
+                              />
+                              <label for="subject">Subject</label>
+                            </div>
+                          </div>
+                          <div class="col-12">
+                            <div class="form-floating">
+                              <textarea
+                                class="form-control border-0"
+                                placeholder="Leave a message here"
+                                id="message"
+                                style="height: 120px"
+                              ></textarea>
+                              <label for="message">Message</label>
+                            </div>
+                          </div>
+                          <div class="col-12">
+                            <button class="btn btn-primary w-100 py-3">
+                              Send Message
+                            </button>
+                          </div>
+                        </div>
+                      </form>
+                    </div>
+                  </div>
+                  <div class="col-12 wow fadeInUp" data-wow-delay="0.5s">
+                    <div class="rounded">
+                      <iframe
+                        class="rounded w-100"
+                        style="height: 400px"
+                        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d125731.20574615436!2d77.47772725126863!3d10.008583419593286!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3b071353e94a7877%3A0x962bf8fd53981722!2sTheni%2C%20Tamil%20Nadu%20625531!5e0!3m2!1sen!2sin!4v1763715554594!5m2!1sen!2sin" 
+                        loading="lazy"
+                        referrerpolicy="no-referrer-when-downgrade"
+                      ></iframe>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- Contact End -->
+
+    <!-- Footer Start -->
+    <div class="container-fluid footer bg-dark border-bottom-0">
+      <div class="container wow fadeIn" data-wow-delay="0.1s">
+        <div class="row g-0">
+          <div class="col-12">
+            <div class="footer-content h-100 pt-6 ps-6 pb-6">
+              <div class="row g-4 align-items-center">
+                <div class="col-12 text-center">
+                  <div class="d-flex justify-content-center">
+                    
+                    <a class="btn btn-light btn-md-square me-3" href=""
+                      ><i class="fab fa-instagram"></i
+                    ></a>
+                    <a class="btn btn-light btn-md-square me-0" href="https://www.linkedin.com/in/devthamuvel"
+                      ><i class="fab fa-linkedin-in"></i
+                    ></a>
+                  </div>
+                </div>
+                <div class="col-12 text-center">
+                  <span class="text-body"
+                    ><p class="border-bottom text-white"
+                      ><i class="fas fa-copyright text-body me-2"></i> All right reserved.</span
+                  >
+                </div>
+                
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- Footer End -->
+
+    <!-- Back to Top -->
+    <a href="#" class="btn btn-primary btn-lg-square back-to-top"
+      ><i class="fa fa-arrow-up"></i
+    ></a>
+
+    <!-- JavaScript Libraries -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.4/jquery.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="lib/wow/wow.min.js"></script>
+    <script src="lib/easing/easing.min.js"></script>
+    <script src="lib/waypoints/waypoints.min.js"></script>
+    <script src="lib/counterup/counterup.min.js"></script>
+    <script src="lib/lightbox/js/lightbox.min.js"></script>
+    <script src="lib/owlcarousel/owl.carousel.min.js"></script>
+
+    <!-- Template Javascript -->
+    <script src="js/main.js"></script>
+    <script src="js/email.js"></script>
+  </body>
+</html>
