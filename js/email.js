@@ -11,7 +11,7 @@ const toast=(text)=>{
 emailjs.init("DWKUb3xH87RwkBhjL");
 
 document.getElementById("contactForm").addEventListener("submit", function (event) {
-  event.preventDefault(); // Prevent form from submitting the default way
+  //event.preventDefault(); // Prevent form from submitting the default way
 
   const templateParams = {
     name: document.getElementById("name").value,
